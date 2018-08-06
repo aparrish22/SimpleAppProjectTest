@@ -5,7 +5,7 @@
 		die('Could not connect: ' . mysqli_error());
 	}
 	
-	mysqli_select_db($connection,"testdb");
+	mysqli_select_db($connection,"employees");
 
 	/* Select Variables via SQL */
 	$SQLstring = "SELECT first_name, last_name FROM users";
